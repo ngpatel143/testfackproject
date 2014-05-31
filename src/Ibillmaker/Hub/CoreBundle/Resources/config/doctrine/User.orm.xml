@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping
+                                      http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+
+    <mapped-superclass name="Ibillmaker\Hub\CoreBundle\Entity\User" table="sylius_user">
+        <field name="companyUrlId" column="companyUrlId" type="string" length="11" nullable="false" />
+        <field name="companyName" column="companyName" type="string" length="20" nullable="true" />
+       
+    </mapped-superclass>
+
+</doctrine-mapping>
