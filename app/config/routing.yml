@@ -1,0 +1,6 @@
+ibillmaker_hub_core:
+    resource: "@IbillmakerHubCoreBundle/Resources/config/routing.yml"
+    prefix:   /
+    
+ibillmaker_routing_collection:
+    resource: "routingCollection.yml"
